@@ -1,0 +1,99 @@
+body{
+    background-image: url(../img/fundo03.jpg);
+    
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.usuariodocadastro{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 1px 1px 5px white;
+    padding: 30px;
+    background-color: #000000
+    border-radius: 7px;
+ }
+ 
+ .formulario{
+     width: 400px;
+     margin: auto;
+     padding-top: 20px;
+ }
+
+ label{
+     color: white;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .card-group {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.card-group2 {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      
+}
+
+.card-group3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.card-group4 button{
+    padding: 15px;
+    border-radius: 40px;
+    background-color: #d69812;
+    width: 100%;
+    color: #ffffff ;
+    outline: 0;
+    }
+
+    .card-group4 button :hover{
+        color: rgb(207, 201, 201);
+        display: inline-block;
+    }
+
+    .card-groupname{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card-groupdata{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .group{
+        box-shadow: none;
+        outline: 0;
+        padding: 10px;
+        border-radius: 60px
+       
+    }
+
+    .group2{
+        box-shadow: none;
+        outline: 0;
+        padding: 10px;
+        border-radius: 60px
+       
+    }
+    #acessar{
+        text-decoration: none;
+        color: black;
+    }

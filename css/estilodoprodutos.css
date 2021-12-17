@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+
+}
+.galerry{
+    border: 1px solid #235a80;
+    box-shadow: aliceblue;
+    box-sizing: border-box; 
+   
+
+}
+.galerry img{
+    width: 100%;
+    height: auto ;
+}
+.des{
+    padding: 5%;
+    text-align: center;
+    color: #faf9f8;
+    font-size: small;
+
+
+  
+}
+.responsive{
+    padding: 40px; /* muda a posição das imagens*/
+    float: left;
+    width: 20%; /*largura das divs*/
+}
+  
+   
+   
+    list-style: none;
+   
+  
+}.galerry{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 500px;
+    border: 1px solid #5dc2f1;
+    background-color: #0c0c0c;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0,.4);
+    -webkit-transition: all .4s ease-in;
+}
+.galerry:hover{
+    -webkit-transform: scale(1.1);
+}
+@media only screen and(max-width: 700px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+@media only screen and(max-width: 500px){
+    .responsive{
+        width: 100%;
+      
+    }
+}
+
+body{
+    background-color: black;
+    background-image: url(./img/fundo03.jpg);
+    
+}
+h1{
+    color: #5f9ed8;
+    text-align: center;
+    font-size:  30PX;
+    padding: 20pt;
+    
+}
+h3{
+    color: #e0d67a;
+    text-align: center;
+    
+    
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    color: #f3f3f1; 
+}
+
+.button-add-cart
+{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+

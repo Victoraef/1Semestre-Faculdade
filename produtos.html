@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>LeagueTech - Produtos</title>
+    <!--Metas para JS e Compatibilidade-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilodoprodutos.css">
+    <!--Links pra fontes e o CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!--Parte de cima da página (Onde tem logo e os links pra outras páginas)-->
+    <header>
+        <!--Logo-->
+        <div class="logo-flex">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <!--Links pra outras páginas-->
+        <nav class="nav-header">
+            <ul class="nav-ul">
+                <li><a href="./index.html" class="nav-li">HOME</a></li>
+                <li><a href="./produtos.html" class="nav-li">PRODUTOS</a></li>
+                <li><a href="./quem-somos.html" class="nav-li">QUEM SOMOS</a></li>
+                <li><a href="./contato.html" class="nav-li">CONTATO</a></li>
+            </ul>
+        </nav>
+        <!--Botões de Usuário e Carrinho-->
+        <nav class="user-nav">
+            <ul class="user-ul">
+                <li class="user-cart">
+                    <img src="./img/carrinho.png" alt="">
+                    <div id="shopping-cart">
+                        <table id="cart-content" class="shopping-cart-css">
+                            <thead>
+                                <th>PRODUTO</th>
+                                <th>NOME</th>
+                                <th>PREÇO</th>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        </br>
+                        <a href="#" id="clear-cart" class="button-clean-cart">Limpar Carrinho</a>
+
+                        </br>
+                        </br>
+                        <button onclick="buyNow()" id="buy-now" class="button-clean-cart">Comprar Agora</button>
+
+                    </div>
+                </li>
+                <li><a href="login.html" class="user-user"><img src="./img/user.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>NOSSOS PRODUTOS </h1>
+    <h3>
+        Acessórios para aqueles que não dispensam uma boa partida no PC:</br>
+        |Ofertas |Desktops | PC Gaming | | Monitores | Acessórios | Memória e Armazenamento|</br>
+    </h3><br><br><br><br>
+
+
+    <div id="courses-list">
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/coolerfanpreto.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Cooler Fan 120 mm PWM LED RGB,Corsair ,LL 120 RGB.
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 148,97</span></p>
+                    </br>
+
+                    16 LEDs RGB independentes em cada ventoinha, divididos entre dois loops de luz separados.Lâmina de
+                    ventoinha de 120mm projetada para operação de baixo ruído sem sacrificar o desempenho.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="1">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/drivepreto.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        SSD XPG SPECTRIX S40G RGB PCIe Gen3x4 M.2 2280 2TB
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 1984,22</span></p>
+                    </br>
+
+                    Abra caminho com RGB , velocidade incomparável.Em Busca da Eficiência, Integridade e Segurança
+                    de Dados.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="2">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/rogstrixpreto.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Refrigerador de CPU líquido ROG Strix LC 240 com Aura Sync RGB
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 795,31</span></p>
+                    </br>
+
+                    A tampa da bomba de revestimento RGB endereçável individualmente acentua a estética moderna e
+                    elegante Projetado
+                    para complementar a placa-mãe ROG, no centro do palco de sua compilação. Tubo reforçado com mangas
+                    para
+                    maior durabilidade
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/gabinetepreto.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Gabinete Super -Tower Obsidian séries RGB
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 3299,98</span></p>
+                    </br>
+
+                    O mais moderno gabinete super-tower para PCs com design sofisticado em
+                    vidro temperado, controles inteligentes de iluminação e ventoinhas além de capacidade para armazenar
+                    dois sistemas simultaneamente, possibilitando a criação de montagens épicas.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/placapreta.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Placa Mãe Z170 PRO GAMING
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 1598,30</span></p>
+                    </br>
+
+                    A primeira placa-mãe compatível com impressão 3D do mundo com design de montagem com patente
+                    pendente.Soquete LGA1151 para os processadores Intel® Core™i7/ Core i5/vCore i3, Pentium ® e
+                    Celeron®
+                    6ª geração.RAMCache.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/telapreta.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Monitor para jogos TUF ,Gaming VG259QM- 24,5 polegadas Full HD
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 1997,10</span></p>
+                    </br>
+
+                    PS rápido,
+                    280Hz com overclock (acima de 240Hz, 144hz), 1ms (GTG), sincronização de desfoque de movimento
+                    extremo baixo, compatível com G-SYNC, compatível com G-SYNC, Display HDR ™ 400.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/psupreta.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        PSU ROG Strix 650W Gold
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 621,10</span></p>
+                    </br>
+                    A PSU ROG Strix 650W Gold oferece desempenho de resfriamento Premium para o mainstream.
+                    Os dissiparadores de calor ROG cobrem componentes críticos. Temps os mais baixos resultam em uma
+                    vida útil mais longa e ruído reduzido.A tecnologia 0dB permite que você desfrute de jogos leves e em
+                    relativo silêncio.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/placaRtx.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        ROG-STRIX-RTX2080-O8G-GAMING
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 6699,95</span></p>
+                    </br>
+                    A ROG Strix GeForce RTX ™ 2080 une a GPU da lista A da NVIDIA® com um elenco de especialistas de
+                    elite, preparando o cenário para uma ação épica nos jogos. O fornecimento de energia gigantesco
+                    fornece a força para ultrapassar os limites do overclock, enquanto o resfriamento aperfeiçoado até a
+                    perfeição mantém os holofotes diretamente no desempenho de Turing ™. E com um arsenal de utilitários
+                    que permite personalizar e ajustar esse hardware extremo, você escolhe.
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/HD.jpeg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        HD Seagate Barracuda 2TB, Sata III, 7200RPM
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 529,95</span></p>
+                    </br>
+                    A velocidade de um disco é a principal responsável por sua agilidade na leitura e cópia de
+                    informações. Por isso, contar com valores de grande porte é fundamental para os usuários que querem
+                    aumentar sua produtividade e não gostam de ter seu tempo jogado fora.
+
+
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="galerry">
+                <img src="./img/rogHuracan.jpg" width="300" height="200">
+
+                <div class="des">
+                    <h4>
+                        Computador ROG Huracan
+                    </h4>
+                    </br>
+                    <p class="price"><span class="u-pull-right ">R$ 18997,99</span></p>
+                    </br>
+                    Equipado com G21 Compact Gaming Desktop, Unlocked Intel Core i9-9900K Processor, NVIDIA GeForce RTX
+                    2080, 32GB 2666MHz RAM, 1TB SSD, Wi-Fi 5, G21CX-XB981, o ROG Huracan foi feito sob medida para todos
+                    os gamers que prezam pela qualidade da sua jogatina.
+
+
+
+
+                </div>
+                <a href="#" class="button-add-cart input add-to-cart" data-id="3">Adic. ao carrinho</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./js/app.js"></script>
+
+
+</body>
+
+</html>

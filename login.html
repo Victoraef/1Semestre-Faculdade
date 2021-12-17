@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>LeagueTech - Login</title>
+    <!--Metas para JS e Compatibilidade-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!--Links pra fontes e o CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/estilodologin.css">
+</head>
+<body>
+    <header>
+        <!--Logo-->
+        <div class="logo-flex">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <!--Links pra outras páginas-->
+        <nav class="nav-header">
+            <ul class="nav-ul">
+                <li ><a href="./index.html" class="nav-li">HOME</a></li>
+                <li ><a href="./produtos.html" class="nav-li">PRODUTOS</a></li>
+                <li ><a href="./quem-somos.html" class="nav-li">QUEM SOMOS</a></li>
+                <li ><a href="./contato.html" class="nav-li">CONTATO</a></li>
+            </ul>
+        </nav>
+        <!--Botões de Usuário e Carrinho-->
+        <nav class="user-nav">
+            <ul class="user-ul">
+                <li class="user-cart">
+                    <img src="./img/carrinho.png" alt="">
+                    <div id="shopping-cart">
+                        <table id="cart-content" class="shopping-cart-css">
+                            <thead>
+                                <th>PRODUTO</th>
+                                <th>NOME</th>
+                                <th>PREÇO</th>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </br>
+                            <a href="#" id="clear-cart" class="button-clean-cart">Limpar Carrinho</a>
+                    </div>    
+                </li>
+                <li><a href="login.html" class="user-user"><img src="./img/user.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+   <form class="formulario" action="">
+        <div class="card">
+            <div class="cardtop">
+                <img class="usuariologin" src="./img/login.png" alt="">
+                <h1> <img src="./img/logo.png" alt=""></h1>
+            
+            </div>
+
+            <div class="card-group">
+                <label for="">Email:</label>
+                <input  class="group" type="email" name="Email" placeholder="Digite seu email" required> 
+                
+            </div>
+
+            
+            <div class="card-group2">
+                <label for="">Senha:</label>
+                <input class="group2" type="password" name="Senha" placeholder="Difite sua senha" required>
+                
+            </div>
+
+            <div class="card-group3">
+                <label><input type="checkbox">Lembre-me</label>
+             
+                
+            </div>
+
+           
+            <div class="card-group4">
+                  <button type="submit"><a id="acessar" action="#" href="index.html">Acessar</a></button>
+             
+                
+            </div>
+
+        <div>
+          <a id="cadastre" action="#" href="cadastro.html">Cadastre-se</a>
+
+
+
+        </div>
+       
+   </form>
+</body>
+</html>

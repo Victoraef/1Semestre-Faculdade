@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/estilocadastro.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LeagueTech - Cadastrar-se</title>
+</head>
+<body>
+    <header>
+        <!--Logo-->
+        <div class="logo-flex">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <!--Links pra outras páginas-->
+        <nav class="nav-header">
+            <ul class="nav-ul">
+                <li ><a href="./index.html" class="nav-li">HOME</a></li>
+                <li ><a href="./produtos.html" class="nav-li">PRODUTOS</a></li>
+                <li ><a href="./quem-somos.html" class="nav-li">QUEM SOMOS</a></li>
+                <li ><a href="./contato.html" class="nav-li">CONTATO</a></li>
+            </ul>
+        </nav>
+        <!--Botões de Usuário e Carrinho-->
+        <nav class="user-nav">
+            <ul class="user-ul">
+                <li class="user-cart">
+                    <img src="./img/carrinho.png" alt="">
+                    <div id="shopping-cart">
+                        <table id="cart-content" class="shopping-cart-css">
+                            <thead>
+                                <th>PRODUTO</th>
+                                <th>NOME</th>
+                                <th>PREÇO</th>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </br>
+                            <a href="#" id="clear-cart" class="button-clean-cart">Limpar Carrinho</a>
+                    </div>    
+                </li>
+                <li><a href="login.html" class="user-user"><img src="./img/user.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+   <form class="formulario" action="">
+        <div class="card">
+            <div class="cardtop">
+                <center>
+                <img class="usuariodocadastro" src="./img/logo.png" alt="">
+                 </center>
+                    
+                
+            </div>
+           
+            <div class="card-groupname">
+                <label for="">Nome</label>
+                <input  class="group2" type="name" name="Nome" placeholder="Digite seu nome" required> 
+                
+            </div>
+
+            <div class="card-groupdata">
+                <label for="">Data de nascimento</label>
+                <input  class="group2" type="date" name="Data de nascimento" placeholder="Digite sua data de nascimeto" required> 
+                
+            </div>
+
+            <div class="card-group">
+                    <label for="">Email</label>
+                    <input  class="group2" type="email" name="Email" placeholder="Digite seu email" required> 
+                    
+                </div>
+
+            
+            <div class="card-group2">
+                <label for="">Senha</label>
+                <input class="group2" type="password" name="Senha" placeholder="Digite sua senha" required>
+                
+            </div>
+
+            <div class="card-group2">
+                <label for=""> Conf. Senha</label>
+                <input class="group2" type="password" name="Senha" placeholder="Digite novamente" required>
+                
+            </div>
+
+            <div class="card-group3">
+                <label><input type="checkbox">Lembre-me</label>
+             
+                
+            </div>
+
+           
+            <div class="card-group4">
+                <button type="submit"><a id="acessar" action="#" href="login.html">Acessar</a></button>
+             
+                
+            </div>
+
+         
+
+
+
+        </div>
+       
+   </form>
+</body>
+</html>

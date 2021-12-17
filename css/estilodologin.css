@@ -1,0 +1,116 @@
+body{
+    background-image: url(../img/fundo03.jpg);
+}
+h1{
+    color: #000000;
+    font-size: -3px;
+
+}
+
+
+.card{
+   box-shadow: 1px 1px 5px white;
+   padding: 50px;
+   background-color: #000000;
+   border-radius: 5px;
+   width: 300px;
+}
+
+.formulario{
+    margin: auto; /*cetraliza a div*/
+    padding-top: 60px;/*distância do topo*/
+}
+
+.cardtop{
+    text-align: center;
+    width: 200px;
+   
+}
+
+.usuariologin{
+    border-radius: 50px;
+    
+}
+
+.card-group {
+    width: 100px;
+    color: white;
+    padding-top: 40px;
+    display: block; 
+    margin-bottom: 8px;
+    padding-bottom: 3px;
+}
+
+.card-group2 {
+    width: 150px;
+    color: white;
+    padding-top: 0px;
+    display: block;
+    border-radius: 50px;
+}
+
+
+
+.card-group3{
+    padding-bottom: 10pxs;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-group4 button{
+    padding: 15px;
+    border-radius: 40px;
+    background-color: #d69812 ;
+    width: 70%;
+    color: #ffffff ;
+    outline: 0;
+    text-decoration: none;
+    }
+
+    .card-group4 button :hover{
+        color: rgb(207, 201, 201);
+        display: inline-block;
+      
+    }
+
+    /**/
+
+    .group{
+        box-shadow: none;
+        outline: 0;
+        padding: 10px;
+        border-radius: 60px
+       
+    }
+
+    .group2{
+        box-shadow: none;
+        outline: 0;
+        padding: 10px;
+        border-radius: 60px
+       
+    }
+    #cadastre{
+        font: 20px bold normal;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 25px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: justify;
+        padding-bottom: 4px;
+        text-align: center;
+    
+       
+       
+    }
+    #acessar{
+        text-decoration: none;
+        color: black;
+        font-size: bold;
+    }
+    
+ 
+
+
+    

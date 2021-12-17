@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeagueTech - Contato</title>
+     <!--Links pra fontes e o CSS-->
+     <link rel="stylesheet" href="./css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+     <style>
+         body{
+            background-image: url(./img/fundo03.jpg);
+         }
+         h1{
+             text-align: center;
+             padding: 30px;
+             color:  goldenrod;
+             font-size:25pt ;
+             box-shadow: rgb(255, 255, 255);
+           
+         }
+         .at{
+             text-align: center;
+             text-indent: 50px;
+             font-family: Arial;
+             color: #ffffff;
+             font-size: 20pt;
+         }
+         .fg{
+             text-align: center;
+             padding: 30px;
+             color: #ffffff;
+             font-family: Arial;
+             font-size: 15pt;
+         }
+     </style>
+</head>
+<body>
+ <!--Parte de cima da página (Onde tem logo e os links pra outras páginas)-->
+ <header>
+    <!--Logo-->
+    <div class="logo-flex">
+        <img src="./img/logo.png" alt="logo">
+    </div>
+    <!--Links pra outras páginas-->
+    <nav class="nav-header">
+        <ul class="nav-ul">
+            <li ><a href="./index.html" class="nav-li">HOME</a></li>
+            <li ><a href="./produtos.html" class="nav-li">PRODUTOS</a></li>
+            <li ><a href="./quem-somos.html" class="nav-li">QUEM SOMOS</a></li>
+            <li ><a href="./contato.html" class="nav-li">CONTATO</a></li>
+        </ul>
+    </nav>
+    <!--Botões de Usuário e Carrinho-->
+    <nav class="user-nav">
+        <ul class="user-ul">
+            <li class="user-cart">
+                <img src="./img/carrinho.png" alt="">
+                <div id="shopping-cart">
+                    <table id="cart-content" class="shopping-cart-css">
+                        <thead>
+                            <th>PRODUTO</th>
+                            <th>NOME</th>
+                            <th>PREÇO</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </br>
+                        <a href="#" id="clear-cart" class="button-clean-cart">Limpar Carrinho</a>
+                        
+            </br>
+        </br>
+                        <button onclick="buyNow()" id="buy-now" class="button-clean-cart">Comprar Agora</button>
+                       
+                </div>    
+            </li>
+            <li><a href="login.html" class="user-user"><img src="./img/user.png" alt=""></a></li>
+        </ul>
+    </nav>
+</header>
+
+    <h1>CENTRAL DE ATENDIMENTO</h1><br><br>
+    <p class="at"> Nosso horário de atendimento é de segunda à sexta das 08h às 20h,e aos Sábados das 08h às 15h.</p>
+
+
+
+
+   
+    <figure class="fg" >
+      <figcaption >
+         Encaminhe mensagem por email: <br>
+        <img src="./img/email.jpg"/> 
+        faleconosco@leaguetech.com.br
+       
+      </figcaption>
+      <br> <br> <br>
+     <figcaption>
+        Fale com nossos Atendentes pelo Chat:<br>
+        <img src="./img/wats.jpg"/> 
+       (11) 97667-7070
+     </figcaption>
+    </figure>
+    
+
+  
+
+    
+
+        
+    
+
+    </body>
+    </html>
